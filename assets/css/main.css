@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;1,700&family=Raleway:wght@500&display=swap');
+
+:root {
+    --font-merriweather:  font-family: 'Merriweather', serif;
+    --font-Poppins: font-family: 'Poppins', sans-serif;
+    --font-Raleway: font-family: 'Raleway', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px dashed red;
+}
+
+body {
+    font-family: var(--font-Poppins);
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
